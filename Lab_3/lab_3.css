@@ -1,0 +1,58 @@
+#paragraph1{
+    font-size: large;
+}
+#id201{
+    text-align: center;
+}
+#id204{
+    color: red;
+}
+.header{
+    padding-left: 10px;
+    padding-right: 100px;
+    color: white;
+    background-color: rgb(40, 40, 125);
+}
+.data{
+    padding-left: 10px;
+    background-color: skyblue;
+}
+
+.contact-container{
+    width: 500px;
+    margin: 30px 30px 30px 30px;     
+    background-color: rgb(125, 212, 125);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+#heading3{
+    text-align: center;
+}
+
+.table2{
+    margin: auto; 
+}
+
+.table2 td{
+    padding: 10px;
+}
+
+.table2 input,
+.table2 textarea{
+    width: 220px;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+}
+
+.table2 textarea{
+    height: 80px;
+}
+
+
+
+
+
+
+
