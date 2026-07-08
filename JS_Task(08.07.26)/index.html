@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Product Cart</title>
+        <script src="cart.js"></script>
+    </head>
+    <body>
+        <form onkeyup="return calculate()">
+            <fieldset>
+                <legend>
+                    Product Cart
+                </legend>
+                <table>
+                    <tr>
+                        <td>
+                            <p>Product Name</p>
+                        </td>
+                        <td>
+                            <input type="text" id="pdName" value="Asus Vivo Notebook" id="productName" readonly/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Product Price</p>
+                        </td>
+                        <td>
+                            <input type="text" value="50000" id="productPrice" readonly />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                Quantity
+                            </p>
+                        </td>
+                        <td>
+                            <input type="number" id="Quantity"
+                            
+                            />
+                        </td>
+                        <td>
+                            <p id="errorQuantity"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                Payable
+                            </p>
+                      </td>
+                      <td>
+                        <input type="text" id="payable" readonly/>
+                      </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button id="button" style="display: none;" >
+                                Add to Cart
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+
+    </body>
+</html>
