@@ -1,0 +1,9 @@
+Design a page HTML, CSS and JavaScript.
+
+HTML: You are required to design a form for students registration. The form should contain first name, last name, student id, email, CRDIT COMPETED, DEPARTMENT(select-option) and a button to submit.
+
+JS(validation): first name and last name cannot be empty. Student id must be contains "-". the email should contain @student.aiub.edu. crdit completed can be 0 or more but less than 148. Department is required field.
+
+JS and HTML: Inside the HTML page, you have to show all registered student list. This list will automatic updated after successful submission.
+
+CSS: Us a container and light color for the form. The label should be bold and requied field show red*. The form should be placed in the cente of the page. The button should be placed in the center of the container.
