@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f4f8;
+    background-color: rgb(231, 238, 239);
 }
 
 #pageTitle {
@@ -10,7 +10,7 @@ body {
 #container {
     width: 600px;
     margin: 30px auto;
-    background-color: #e8f4fc;
+    background-color: rgb(230, 246, 251);
     padding: 20px;
     border-radius: 10px;
     border: 1px;
@@ -40,7 +40,7 @@ p {
 
 button {
     padding: 8px 24px;
-    background-color: #2a7abf;
+    background-color: rgba(24, 125, 179, 0.918);
     color: white;
     border: none;
     border-radius: 6px;
@@ -48,7 +48,7 @@ button {
 }
 
 button:hover {
-    background-color: #1a5a9f;
+    background-color: rgb(19, 92, 182);
 }
 
 #studentListContainer {
@@ -62,10 +62,16 @@ button:hover {
 }
 
 #studentTable th {
-    background-color: #2a7abf;
+    background-color: rgb(40, 107, 184);
     color: white;
     padding: 8px;
 }
+
+#studentTable td {
+    padding: 8px;
+    text-align: center;
+}
+
 
 #studentTable td {
     padding: 8px;
