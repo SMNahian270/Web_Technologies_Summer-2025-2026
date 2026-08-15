@@ -31,7 +31,7 @@ if ($hasUsernameError || $hasPasswordError) {
     Header("Location: ../View/login.php");
 } else {
     if ($username == "rahman" && $password == "1234") {
-        setcookie("foodName", $foodName, time() + 3600, "/");
+        setcookie("foodName", $foodName, time() + 3600*24*30, "/");
         $_SESSION["loggedInUser"] = $username;
         $_SESSION["isLoggedIn"] = true;
         Header("Location: ../View/dashboard.php");
